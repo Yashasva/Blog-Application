@@ -1,24 +1,12 @@
-# README
+<h1>Blog Application</h1>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails version 6.0.3.4 <br>
+Ruby version 2.7.1p83 <br>
+Database : SQLite 3 <br>
+Node version: v14.13.1 <br>
+yarn version: 1.22.5 <br>
 
-Things you may want to cover:
+To use this, run $ rails server and visit http://localhost:3000/articles
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Users can create, Update, Delete and save their articles and add comments to each article.
+The articles are stored in a database table named 'Article'. 
